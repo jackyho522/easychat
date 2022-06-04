@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+  #notes
+  Options -Multiviews
+  RewriteEngine On
+  RewriteBase /chatapp/public
+  #execute the next RewriteRule only if this is true
+  #https://httpd.apache.org/docs/current/mod/mod_rewrite.html
+  #obtain full local system path to the file or script
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  #not a directory, not a file
+  RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+  #matches any URL except server root
+  #it matches until it can't match any more and gives back only as much as needed.
+  #QSA flag means to append an existing query string after the URI has been rewritten
+  #L = means if the rule matches, don't process any more RewriteRules below this one.
+</IfModule>

@@ -1,0 +1,16 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parallax {
+    background-image: url("../../public/assets/connect.jpeg");
+    min-height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2
+}
+
+.coverpic {
+    max-width: 100%;
+}

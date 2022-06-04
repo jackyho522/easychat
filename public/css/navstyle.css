@@ -1,0 +1,29 @@
+.navbar {
+    border-bottom: 4px solid #e8eeee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-item::after {
+    content: '';
+    width: 0px;
+    height: 8px;
+    display: block;
+    background: #8fc4b7;
+    transition: 0.2s;
+    margin-top: -12px;
+    
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-link {  
+    display: block;
+    padding: 5px 5px;
+    transition: 0.9s;
+}
+
+.navbar-nav .nav-link {
+    font-size: 25px;
+}

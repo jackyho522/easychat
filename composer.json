@@ -1,0 +1,10 @@
+{
+    "name": "rindo/chatapp",
+    "description": "chat application",
+    "type": "project",
+    "require": {
+        "ramsey/uuid": "^4.2",
+        "cboden/ratchet": "^0.4",
+        "hackzilla/password-generator": "^1.6"
+    }
+}

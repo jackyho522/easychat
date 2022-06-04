@@ -1,0 +1,285 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent;  /* scrollbar invisible */
+}
+
+@-moz-document url-prefix() { /* Firefox */
+	html{
+	  scrollbar-width: none;
+	}
+}
+
+/* https://html-css-js.com/css/generator/box-shadow/ */
+
+.overlay {
+    background-color: #8fc4b7;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index:1;
+	overflow-y: scroll;
+}
+
+.form-box {
+	margin-top: 20px;
+	margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+    height: 850px;
+    overflow-y: scroll;
+    font-size: 18px;
+    color: black;
+    background-color:white;
+    line-height: 30px;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    z-index:2;
+    -webkit-box-shadow: 5px 8px 5px 3px rgba(78, 76, 76, 0.25);
+	box-shadow: 5px 8px 5px 3px rgba(83, 82, 82, 0.25);
+}
+
+.login-form-box {
+	margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 1200px;
+    font-size: 18px;
+    color: black;
+    background-color:white;
+    line-height: 30px;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    z-index:2;
+    -webkit-box-shadow: 5px 8px 5px 3px rgba(78, 76, 76, 0.25);
+	box-shadow: 5px 8px 5px 3px rgba(83, 82, 82, 0.25);
+}
+
+.form-l {
+	margin-left: -12px;
+}
+
+.form-r {
+	margin-top: 50px;
+	text-align: left;
+}
+
+.form-top {
+	text-align: left;
+}
+
+.form-bottom {
+    margin: 5px 5px 5px 5px;
+	text-align: left;
+    color: black;
+}
+
+.form-bottom form textarea {
+	height: 100px;
+}
+
+.form-bottom form button.btn {
+	width: 80%;
+}
+
+.userprofile {
+	margin-top: 5px;
+	margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 70%;
+	background-color:rgb(198, 236, 241);
+	border-width: 3px;
+    border-style: solid;
+	-webkit-box-shadow: 5px 8px 5px 3px rgba(78, 76, 76, 0.25);
+	box-shadow: 5px 8px 5px 3px rgba(83, 82, 82, 0.25);
+}
+
+.userinfo {
+	border-radius: 25px;
+	margin: 15px 15px 15px 15px;
+	border-width: 7px;
+
+}
+.userdetail {
+	border-radius: 25px;
+	margin: 15px 15px 15px 15px;
+	border-width: 7px;
+}
+
+.username {
+	border-radius: 25px;
+	margin: 15px 15px 15px 15px;
+	border-width: 7px;
+
+}
+
+.user-box {
+	margin-top: 70px;
+	margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 35%;
+    font-size: 20px;
+    color: black;
+	background-color:white;
+	border-width: 3px;
+    border-style: solid;
+	-webkit-box-shadow: 7px 13px 19px 7px #8F8F8F; 
+	box-shadow: 7px 13px 19px 7px #8F8F8F;
+	z-index: 2;
+}
+ 
+.chat-box {
+	margin-top: 10px;
+	margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+    font-size: 20px;
+    color: black;
+	background-color:rgb(198, 236, 241);
+	border-width: 3px;
+    border-style: solid;
+	-webkit-box-shadow: 7px 13px 19px 7px #8F8F8F; 
+	box-shadow: 7px 13px 19px 7px #8F8F8F;
+	z-index: 2;
+}
+
+.card-header {
+	background: rgb(173, 216, 226);
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	border-bottom-style: hidden;
+    font-size: 20px;
+    color: black;
+}
+
+#msg_area {
+    height: 600px;
+	overflow-y: scroll;
+	background: rgb(216, 224, 226);
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+    font-size: 20px;
+    color: black;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+	-webkit-box-shadow: 7px 13px 19px 7px #8F8F8F; 
+	box-shadow: 7px 13px 19px 7px #8F8F8F;
+}
+
+img.pic {
+	margin: 35px 5px 5px 20px;
+	width: 50px;
+	height: 50px;
+}
+
+.pm {
+	font-size: 20px;
+	-webkit-box-shadow: 5px 8px 5px 3px rgba(78, 76, 76, 0.25);
+	box-shadow: 5px 8px 5px 3px rgba(83, 82, 82, 0.25);
+	margin-left: -30px;
+	padding: 0 10px;
+	background: rgb(12, 210, 236);
+	color: black;
+}
+
+.status-dot1 {
+	color: rgb(32, 158, 32);
+	margin: 37px 5px 5px 70px;
+	font-size: 18px;
+}
+
+.status-dot0 {
+	margin: 37px 5px 5px 70px;
+	font-size: 18px;
+}
+
+button.btn {
+	margin: 0;
+    padding: 0 20px;
+	font-size: 20px;
+	font-weight: bold;
+    color: black;
+	height: 50px;
+    background: rgb(12, 210, 236);
+	border: none;
+}
+
+.btn-sm {
+	font-size: 20px;
+	-webkit-box-shadow: 5px 8px 5px 3px rgba(78, 76, 76, 0.25);
+	box-shadow: 5px 8px 5px 3px rgba(83, 82, 82, 0.25);
+	margin: 5px;
+	padding: 0 10px;
+	background: rgb(12, 210, 236);
+	color: black;
+}
+
+.btn-primary {
+	font-size: 20px;
+	-webkit-box-shadow: 5px 8px 5px 3px rgba(78, 76, 76, 0.25);
+	box-shadow: 5px 8px 5px 3px rgba(83, 82, 82, 0.25);
+	margin: 2px;
+	padding: 0 10px;
+	background: rgb(207, 226, 233);
+	color: black;
+
+}
+
+.btn-primary:hover {
+	border: 5px solid #e2a41c;
+}
+
+input[type="radio"]:hover + label {
+	border: 5px solid #483D8B;
+	color: black;
+}
+
+input[type="radio"]:checked + label {
+	border: 5px solid #e2a41c;
+	color: black;
+}
+
+.profile {
+	width: 80%;
+}
+
+.options a {
+	color: orange;
+}
+
+.options a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.invalidFeedback {
+	color: red;
+}
+
+
+button.btn:hover { color: rgb(236, 185, 18); }
+
+button.btn:active { color: #fff; }
+
+button.btn:focus { background: red; color: #fff; }
+
+button.btn:active:focus, button.btn.active:focus { opacity: 0.2; background: red; color: #fff; }
