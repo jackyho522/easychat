@@ -6,6 +6,8 @@ send messages to specific users.
 ## Instant Chat
 ![chat](./chat.png)
 
+## Start Chat Server
+![message](./message.png)
 Copy this two command in terminal 
 1. `cd chatapp\private\core`
 2. `php server.php`
